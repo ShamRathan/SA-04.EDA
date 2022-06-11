@@ -35,27 +35,52 @@ sns.kdeplot(data=df, x='Survived',y='Fare')
 sns.kdeplot(data=df, x='Age',y='Fare')
 sns.kdeplot(data=df, x='Age',y='Pclass')
 ```
-## Output:
-![output](./outpic/1.png)
-![output](./outpic/2.png)
-![output](./outpic/3.png)
-![output](./outpic/4.png)
-![output](./outpic/5.png)
-![output](./outpic/6.png)
-![output](./outpic/7.png)
-![output](./outpic/8.png)
-![output](./outpic/9.png)
-![output](./outpic/10.png)
-![output](./outpic/11.png)
-![output](./outpic/12.png)
-![output](./outpic/13.png)
-![output](./outpic/14.png)
-![output](./outpic/15.png)
-![output](./outpic/16.png)
-![output](./outpic/17.png)
-![output](./outpic/18.png)
-![output](./outpic/19.png)
-![output](./outpic/20.png)
+# OUTPUT:
+# Initial Dataframe:
+![op](./outpic/1.png)
+# KDE for all numeric variables of the Dataframe:
+![op](./outpic/2.png)
+## Basic KDE plot for Pclass column:
+![op](./outpic/3.png)
+## Basic KDE plot for Age column:
+![op](./outpic/4.png)
+## Basic KDE plot for Fare column:
+![op](./outpic/5.png)
+## Basic KDE plot for Survived column:
+![op](./outpic/6.png)
+## Basic KDE plot for SibSp column:
+![op](./outpic/7.png)
+# KDE on a category using MULTIPLE argument:
+## Survived Vs Sex:
+![op](./outpic/8.png)
+## Fare Vs Sex:
+![op](./outpic/9.png)
+## Survived Vs Pclass:
+![op](./outpic/10.png)
+# KDE on a category using MULTIPLE argument(Using additional Parameter- stack):
+## Survived Vs Sex
+![op](./outpic/11.png)
+## Fare Vs Sex
+![op](./outpic/12.png)
+## Survived Vs Pclass:
+![op](./outpic/13.png)
+## Fare Vs Pclass:
+![op](./outpic/14.png)
+# KDE on a category using MULTIPLE argument(Using additional Parameter- stack,line width):
+## Survived Vs Sex:
+![op](./outpic/15.png)
+## Survived Pclass:
+![op](./outpic/16.png)
+
+## Bivariate KDE:
+## Survived Vs SibSp:
+![op](./outpic/17.png)
+## Survived Vs Fare:
+![op](./outpic/18.png)
+## Age Vs Fare:
+![op](./outpic/19.png)
+## Age Vs Pclass:
+![op](./outpic/20.png)
 
 # <p align ='center'> Thank You </p>
 
