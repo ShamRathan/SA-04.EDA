@@ -91,6 +91,10 @@ df.corr()
 sns.heatmap(df.corr(),annot=True)
 ```
 ![output](./pic/13.png)
+<br></br>
+<br></br>
+<br></br>
+
 ![output](./pic/14.png)
 ### Analyzation of Column - Data_value:
 ```
